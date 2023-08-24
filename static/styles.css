@@ -15,7 +15,7 @@ body {
 
 .item {
     display: block;
-    color: white;
+    color: rgb(97, 86, 86);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -23,6 +23,6 @@ body {
 }
 
 .item:hover {
-    background-color: #555;
-    transform: scale(1.1);
+    background-color: #5737cb;
+    transform: scale(1.3);
 }
