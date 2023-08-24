@@ -15,3 +15,17 @@
 .menu-bar a:hover {
     background-color: #555;
 }
+
+.animated-button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
