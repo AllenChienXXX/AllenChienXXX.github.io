@@ -74,9 +74,9 @@ h1 {
 }
 
 .container {
+    display: flex;
     font-weight: lighter;
     font-family: 'Segoe UI';
-    width: 800px;
     padding: 20px 20px 20px 80px;
 }
 
@@ -123,4 +123,14 @@ h1 {
     flex: 1;
     padding: 10px;
     text-align: right;
+}
+
+.profile-img {
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+}
+
+.sub-container {
+    width: 800px;
 }
