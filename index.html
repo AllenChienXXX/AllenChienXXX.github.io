@@ -7,59 +7,129 @@
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
+    <!-- mennu bar -->
     <div class="menu-bar">
-        <a href="#" class="item">Home</a>
-        <a href="projects.html" class="item">Projects</a>
-        <a href="contact.html" class="item">Contact</a>
+        <a href="#Home" class="item">Home</a>
+        <a href="#Experience" class="item">Experience</a>
+        <a href="#Projects" class="item">Projects</a>
+        <a href="#Contact" class="item">Contact</a>
     </div>
-    <h1>Allen Chien</h1>
-    <div class="container">
-        <div class="sub-container">Allen is an undergraduate student passionate about AI and Machine Learning. He is currently working on Reinforcement Learning(RL) with Dr. Anita Raja at Hunter College, his research goal is to find an optimal solution for Multi-Agent Reinforcement Learning(MARL) that is flexible to implement and efficient in different kinds of scenarios.<br><br>
-            He has worked on Supervised Learning(SL) and Deep Learning(DL) from 2021 to 2023, he has written a paper regarding Phishing Email Filtering with various SL & DL methods. He also has worked with Large Language Models(LLMs) in the past, and is familiar with their structures and their implementation.<br><br>
-            Allen is passionate about creating technologies that could impact the world and benefit the society, his next step is to implement MARL on Robotics.</h3>
+    <div class="main">
+        <!-- home -->
+        <div class="container" id="Home">
+            <h1>Allen Chien</h1>
+            <div class="sub-container">Allen is an undergraduate student passionate about AI and Machine Learning. He is currently working on Reinforcement Learning(RL) with Dr. Anita Raja at Hunter College, his research goal is to find an optimal solution for Multi-Agent Reinforcement Learning(MARL) that is flexible to implement and efficient in different kinds of scenarios.<br><br>
+                He has worked on Supervised Learning(SL) and Deep Learning(DL) from 2021 to 2023, he has written a paper regarding Phishing Email Filtering with various SL & DL methods. He also has worked with Large Language Models(LLMs) in the past, and is familiar with their structures and their implementation.<br><br>
+                Allen is passionate about creating technologies that could impact the world and benefit the society, his next step is to implement MARL on Robotics.</h3>
+            </div>
+            <div class="profile-img">
+                <img src="assets\photo.jpg" alt="photo Image" width="350">
+            </div>
         </div>
-        <div class="profile-img">
-            <img src="assets\photo.jpg" alt="photo Image" width="350">
+        <!-- Experience -->
+        <div class="main-lists-container" id="Experience">
+            <div class="main-list">
+                <h2>Experience</h2>
+                <ul class="sub-list">
+                    <li>Incoming intern @ L'SPACE</li>
+                    <li>REU student @ <a class="hyperlink" href="https://anraja.commons.gc.cuny.edu/dair-personnel/" target="_blank">DAIR</a>, Hunter College(CUNY)</li>
+                    <li>Supplemental Instruction Tutor @ LaGuardia CC</li>
+                    <li>NIH Bridges</li>
+                    <li>Information Technology Intern @ NeedTech Inc.</li>
+                    <li>NCAS - National Community College Aerospace Scholar</li>
+                </ul>
+            </div>
+            <div class="main-list">
+                <h2>Publications</h2>
+                <ul class="sub-list">
+                    <li>Email Feature Classification and Analysis of Phishing Email Detection Using Machine Learning Techniques @ IEEE CSDE2023</li>
+                </ul>
+            </div>
+            <div class="main-list">
+                <h2>Licenses</h2>
+                <ul class="sub-list">
+                    <li>Certified Soliworkds Associate (CSWA) in Mechanical Design</li>
+                    <li>Open Water Scuba Diver</li>
+                </ul>
+            </div>
+            <div class="main-list">
+                <h2>Honors & Rewards</h2>
+                <ul class="sub-list">
+                    <li>First Place at Bio x ML Hackathon | <a class="hyperlink2" href="https://github.com/AllenChienXXX/hackathon" target="_blank">link</a></li>
+                    <li>First place in LaGuardia Community College Hackathon 2023 | <a class="hyperlink2" href="https://huggingface.co/spaces/BIOML-SVM/SVM" target="_blank">link</a></li>
+                </ul>
+            </div>
+            <div class="main-list">
+                <h2>Education</h2>
+                <ul class="sub-list">
+                    <li>LaGuardia Community College | Computer Science | 2022-2023 | Associate of Science</li>
+                    <li>National Taiwan Ocean University | Mechanical Engineering | 2019-2021</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="main-lists-container">
-        <div class="main-list">
-            <h2>Experience</h2>
-            <ul class="sub-list">
-                <li>Incoming intern @ L'SPACE</li>
-                <li>REU student @ <a class="hyperlink" href="https://anraja.commons.gc.cuny.edu/dair-personnel/" target="_blank">DAIR</a>, Hunter College(CUNY)</li>
-                <li>Supplemental Instruction Tutor @ LaGuardia CC</li>
-                <li>NIH Bridges</li>
-                <li>Information Technology Intern @ NeedTech Inc.</li>
-                <li>NCAS - National Community College Aerospace Scholar</li>
-            </ul>
+        <!-- Projects -->
+        <div id="Projects">
+            <div class="project-container">
+                <div class="project-details">
+                    <div class="project-name">Support Vector Machine</div>
+                    <a class="hyperlink2" href="https://github.com/AllenChienXXX/SVM-CPP" target="_blank">Project Link</a>
+                    <div class="project-description">
+                        Motivation:<br><br> 
+                        Throughout my journey of learning and applying AI & Machine Learning, I encountered a challenge: the absence of an open-source library in C/C++ for Supervised Learning algorithms. Driven by my passion for Support Vector Machines and the underlying mathematics, I made the decision to embark on the task of building such a library from scratch.<br><br>
+                        The journey has been both lengthy and enjoyable. I encountered several challenges along the way, each of which I successfully addressed. Despite the algorithm functioning perfectly, I opted to use OpenGL for display, and I am currently focused on refining the accuracy of the display, an aspect that continues to be a work in progress.<br><br>
+                        As of now, this project is limited to binary classification; however, it has demonstrated an impressive capability by achieving 100% accuracy on linearly separable datasets.<br><br>
+                        I am committed to further developing this project and aspire to extend its capabilities to handle multiple classifications simultaneously.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="assets\svmplot.png" alt="SVM Image" width="350">
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-details">
+                    <div class="project-name">Phishing Email Filtering</div>
+                    <a class="hyperlink2" href="https://huggingface.co/spaces/allenchienxxx/PEF" target="_blank">Project Link</a>
+                    <div class="project-description">
+                        Motivation:<br><br>
+                        During my research collaboration with Dr. Khethavath on phishing email filtering, I have chosen to publish my findings on HuggingFace. The objective is to showcase how Supervised Learning techniques respond to various types of features present in contemporary emails.<br><br>
+                        I utilize Streamlit as the user interface, enabling users to upload their emails in the .eml file format. Through this interface, they can then interactively explore:<br><br>
+                        1.What are the features extracted?<br>
+                        2.Whether it's a phishing email or not based on model prediction?<br><br>
+                        Throughout my research, the models I trained have consistently achieved an accuracy rate exceeding 80%. I am committed to ongoing refinement, ensuring the continued improvement and optimal performance of the models.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="assets\PEF.png" alt="PEF Image" width="350">
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-details">
+                    <div class="project-name">LaGuardia Express Search</div>
+                    <a class="hyperlink2" href="https://github.com/AllenChienXXX/hackathon" target="_blank">Project Link</a> | <a class="hyperlink2" href="https://www.youtube.com/watch?v=SXRM7PtA9DU" target="_blank">Present Video</a>
+                    <div class="project-description">
+                        I collaborated with fellow students on this project during the LaGCC Hackathon and am proud to share that we secured the 1st prize.<br><br> 
+                        
+                        Description: LaGuardia Express Search is a robust tool meticulously crafted to assist LaGuardia Community College students in swiftly accessing the information and resources essential to their needs. Our application provides a seamless experience with features such as text-based search and speech-to-text functionality, catering to users in English, Spanish, and Chinese languages.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="assets\LES.png" alt="LES Image" width="350">
+                </div>
+            </div>
         </div>
-        <div class="main-list">
-            <h2>Publications</h2>
-            <ul class="sub-list">
-                <li>Email Feature Classification and Analysis of Phishing Email Detection Using Machine Learning Techniques @ IEEE CSDE2023</li>
-            </ul>
-        </div>
-        <div class="main-list">
-            <h2>Licenses</h2>
-            <ul class="sub-list">
-                <li>Certified Soliworkds Associate (CSWA) in Mechanical Design</li>
-                <li>Open Water Scuba Diver</li>
-            </ul>
-        </div>
-        <div class="main-list">
-            <h2>Honors & Rewards</h2>
-            <ul class="sub-list">
-                <li>First Place at Bio x ML Hackathon | <a class="hyperlink2" href="https://github.com/AllenChienXXX/hackathon" target="_blank">link</a></li>
-                <li>First place in LaGuardia Community College Hackathon 2023 | <a class="hyperlink2" href="https://huggingface.co/spaces/BIOML-SVM/SVM" target="_blank">link</a></li>
-            </ul>
-        </div>
-        <div class="main-list">
-            <h2>Education</h2>
-            <ul class="sub-list">
-                <li>LaGuardia Community College | Computer Science | 2022-2023 | Associate of Science</li>
-                <li>National Taiwan Ocean University | Mechanical Engineering | 2019-2021</li>
-            </ul>
+        <!-- Contact -->
+        <div id="Contact">
+            <main class="main-lists-container">
+                <section class="main-list">
+                    <h2>Get in Touch</h2>
+                    <ul class="sub-list">
+                        <li><a class="hyperlink" href="https://www.linkedin.com/in/allenchien77/" target="_blank">LinkedIn</a></li>
+                        <li><a class="hyperlink" href="mailto:allen71090@gmail.com" target="_blank">Email: allen71090@gmail.com</a></li>
+                        <li><a class="hyperlink" href="https://github.com/AllenChienXXX" target="_blank">Github</a></li>
+                        <li><a class="hyperlink" href="https://huggingface.co/allenchienxxx" target="_blank">Hugging Face</a></li>
+                    </ul>
+                </section>
+            </main>
         </div>
     </div>
 </body>
