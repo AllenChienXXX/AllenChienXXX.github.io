@@ -40,9 +40,9 @@ body {
 }
 
 h1 {
-    padding-left: 80px;
-    color: white;
+    color: rgb(253, 253, 255);
     font-weight: bold;
+    font-size: 50px;
 }
 /* styles.css */
 .main-lists-container {
@@ -73,20 +73,23 @@ h1 {
 }
 
 .hyperlink {
-    color: rgb(0, 128, 255);
+    color: rgb(144, 244, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 .hyperlink:hover {
-    color: rgb(144, 244, 255);
+    color: rgb(0, 128, 255);
 }
 
 .container {
     display: flex;
     font-weight: lighter;
     font-family: 'Segoe UI';
-    padding: 80px 20px 20px 80px;
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 .hyperlink2 {
@@ -105,7 +108,7 @@ h1 {
     display: flex;
     margin: 20px;
     padding: 10px;
-    background-color: #181818;
+    background-color: #383844;
     border: 5px solid #ccc;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
@@ -131,17 +134,22 @@ h1 {
 }
 
 .project-image {
-    flex: 1;
-    padding: 10px;
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-img {
-    flex: 1;
-    padding: 10px;
-    text-align: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sub-container {
-    width: 800px;
+    padding: 40px;
+    width: 300px;
 }
